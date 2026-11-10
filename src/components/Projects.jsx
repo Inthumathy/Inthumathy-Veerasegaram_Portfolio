@@ -3,6 +3,25 @@ import ProjectCard from './ProjectCard';
 
 export default function Projects() {
   const projectsList = [
+    
+     {
+      title: 'Hardware Store Management System',
+      description: 'A full-stack web application designed to manage hardware store operations, including product inventory, customer registration, and order processing. Features secure user authentication, automatic stock updates, and repair service booking with customer verification and location tracking.',
+      type: 'Solo Project',
+      role: 'Full stack Developer',
+      tech: ['React', 'Vite', 'Node.js', 'Express.js', 'MySQL', 'JWT', 'Docker', 'REST APIs', 'Postman'],
+      github: 'https://github.com/Inthumathy/Hardware-Store.git'
+    },
+    
+    {
+      title: 'ResQAI – AI-Orchestrated Disaster Response & Humanitarian Relief Platform',
+      description: 'An AI-powered disaster response platform designed to improve emergency coordination and humanitarian relief operations. Features real-time emergency alerts, AI-based incident analysis, volunteer coordination, and SMS notifications. Contributed to backend development, WebSocket communication, OTP verification, mobile authentication, Docker integration, and API testing.',
+      type: 'Group Project',
+      role: 'Full stack Developer',
+      tech: ['React Native', 'TypeScript', 'Node.js', 'Python', 'FastAPI', 'PostgreSQL', 'Socket.IO', 'Docker', 'REST APIs', 'Postman'],
+      github: 'https://github.com/dinathsv/resqai-platform.git'
+    },
+
     {
       title: 'Student Registration System',
       description: 'A layered, enterprise-grade Spring Boot application designed to manage student profiles, academic course catalogs, and dynamic student enrollments. Features a strict layered architecture pattern and global exception handling.',

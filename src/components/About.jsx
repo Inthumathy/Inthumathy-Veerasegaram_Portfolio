@@ -4,8 +4,8 @@ import { GraduationCap, Briefcase, Languages, Milestone } from 'lucide-react';
 export default function About() {
   const education = [
     {
-      date: '2024 - Present',
-      title: 'NDT in Information Technology',
+      date: '2025 - Present',
+      title: 'National Diploma in Information Technology',
       institution: 'Institute of Technology, University of Moratuwa',
       desc: 'Developing an advanced understanding of software engineering paradigms, databases, computer networks, and enterprise application architectures.'
     },
